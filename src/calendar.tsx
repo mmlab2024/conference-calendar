@@ -69,7 +69,7 @@ const SymposiumCalendar = () => {
             affiliation: "Dementia Research Institute, UK",
             name: "Soyon Hong",
             topic:
-              "S1-01	Neuroimmune mechanisms targeting synapses in models of Alzheimer’s and Parkinson’s disease",
+              "S1-01	Neuro-glia-immune mechanisms of synapse loss in neurodegeneration",
           },
           {
             name: "Stefano Pluchino",
@@ -109,7 +109,7 @@ const SymposiumCalendar = () => {
         description: "Chair: Illana Gozes (Tel Aviv University, Israel)",
         speakers: [
           {
-            name: "llana Gozes & Maram Ganaiem",
+            name: "Gidon Karmon",
             affiliation: "Tel Aviv University, Israel",
             topic:
               "S2-01	ADNP/Davunetide discovery and clinical development - introduction",
@@ -124,7 +124,7 @@ const SymposiumCalendar = () => {
             name: "David Pozo Perez",
             affiliation: "University of Seville, Spain",
             topic:
-              "S2-03	Gene editing and functional characterization reveal ADNP protein physiological roles in microglia and its potential implications in neuronal cross-talk",
+              "S2-03	Decoding a pivotal role of ADNP in microglial polarization and metabolic reprogramming: implications for neurodegeneration",
           },
           {
             name: "Velia D'Agata",
@@ -182,8 +182,8 @@ const SymposiumCalendar = () => {
           {
             name: "Tom Südhof",
             affiliation:
-              "Nobel Laurate 2013 | Avram Goldstein Professor School of Medicine | Professor, Departments of Neurosurgery, of Neurology and of Psychiatry and Behavioral Science, University of California San Fransisco, USA",
-            topic: "",
+              "Nobel Laurate 2013 | Avram Goldstein Professor School of Medicine | Professor, Departments of Neurosurgery, of Neurology and of Psychiatry and Behavioral Science, Stanford University, USA",
+            topic: "Towards a Molecular Logic of Synapse Formation in Neural Circuits",
           },
         ],
       },
@@ -207,8 +207,8 @@ const SymposiumCalendar = () => {
         speakers: [
           {
             name: "Moussa Youdim",
-            affiliation: "Israel Institute of Technology, Israel",
-            topic: "",
+            affiliation: "Technion-Israel Institute of Technology",
+            topic: "Site Activated Multi Target Iron Chelator-Antioxidant with Cholinesterase and Monoamine Oxidase Inhibitory Moieties for Alzheimer’s and Parkinson’s Diseases ",
           },
         ],
       },
@@ -219,6 +219,13 @@ const SymposiumCalendar = () => {
         endTime: new Date(Date.UTC(2025, 4, 19, 6, 30, 0)),
         type: "Young",
         location: "Hall A",
+        speakers: [
+          {
+            name: "Riccardo Cristofani",
+            affiliation: "University of Milan, Italy",
+            topic: "The role of protein quality control system in repeat expansion neurodegenerative diseases",
+          },
+        ],
       },
       {
         id: "ysla-2",
@@ -227,6 +234,13 @@ const SymposiumCalendar = () => {
         endTime: new Date(Date.UTC(2025, 4, 19, 7, 0, 0)),
         type: "Young",
         location: "Hall A",
+        speakers: [
+          {
+            name: "Joana Guedes",
+            affiliation: "Univerisity of Porto, Portugal",
+            topic: "Type 2 neuroimmune dysfunction contributes to neurodevelopmental disorders",
+          },
+        ],
       },
       {
         id: "s4",
@@ -252,16 +266,16 @@ const SymposiumCalendar = () => {
               "S4-02	Catching astrocyte ensembles: their role in memory formation and expression",
           },
           {
-            name: "Alfonso Araque",
-            affiliation: "University of Minnesota, USA",
+            name: "Juliana Rosa",
+            affiliation: "National Hospital of Paraplegics, Spain",
             topic:
-              "S4-03	Tripartite synapses: Astrocyte regulation of synaptic transmission, circuit function and animal behavior  ",
+              "S4-03	Bridging layers: how astrocyte networks boost tactile encoding and sensory integration ",
           },
           {
-            name: "Carmen Falcone",
-            affiliation: "International School for Advanced Studies, Italy",
+            name: "Lucile Ben Haim",
+            affiliation: "Paris-Saclay Institute of Neuroscience, France",
             topic:
-              "S4-04	Varicose-projection astrocytes: from evolution to neuroinflammation ",
+              "S4-04	Astrocyte transcription factor-based signaling shapes mouse socio-sexual behavior",
           },
         ],
       },
@@ -276,10 +290,10 @@ const SymposiumCalendar = () => {
         description: "Chair: Kostas Vekrellis (BRFAA, Greece)",
         speakers: [
           {
-            name: "Vasileia Alexaki",
-            affiliation: "Technical University of Dresden",
+            name: "Christos Proukakis",
+            affiliation: "University College London, UK",
             topic:
-              "S5-01	Metabolic reprograming of microglia in neurodegenerative disease ",
+              "S5-01	Novel DNA sequencing approaches in synucleinopathies",
           },
           {
             name: "Yassemi Koutmani",
@@ -292,14 +306,14 @@ const SymposiumCalendar = () => {
             name: "Katia Karalis",
             affiliation: "Regeneron Pharmaceuticals, USA",
             topic:
-              "S5-03	Microphysiological systems for mapping of cell-cell interactions in the development of human neurodegenerative diseases",
+              "S5-03	Engineered microphysiological systems in the study of neurodegenerative diseases",
           },
           {
             name: "Kostas Vekrellis",
             affiliation:
               "Biomedical  Research  Foundation  Academy  of Athens, Greece",
             topic:
-              "S5-04	The role of extracellular vesicles in neuron-glia interactions ",
+              "S5-04	Proteolotic activities of extracellular vesicles attenuate a-synuclein aggregation",
           },
         ],
       },
@@ -415,7 +429,7 @@ const SymposiumCalendar = () => {
             name: "Diego Quattrone",
             affiliation: "King’s College London, UK",
             topic:
-              "S8-05	Genetic variations in the endocannabinoid system and their psychoplastic effects ",
+              "S8-05	Genetic variations in the endocannabinoid system and their role in cannabis-associated psychosis",
           },
         ],
       },
@@ -467,7 +481,7 @@ const SymposiumCalendar = () => {
         location: "Hall A",
         type: "session2c",
         description:
-          "Chairs: Angelo Poletti (University of Milan, Italy), Giampietro Schiavo (University College of London, UK)",
+          "Chairs: Angelo Poletti (University of Milan, Italy)",
         speakers: [
           {
             name: "Nektarios Tavernarakis",
@@ -497,7 +511,7 @@ const SymposiumCalendar = () => {
             name: "Marta Cozzi ",
             affiliation: "University of Milan, Italy",
             topic:
-              "S10-05	Altered mitochondrial dynamics in KIF5A-associated neurodegenerative or neurodevelopmental disorders",
+              "S10-05	Molecular defects in KIF5A-linked neurodegenerative and neurodevelopmental diseases",
           },
         ],
       },
@@ -588,7 +602,7 @@ const SymposiumCalendar = () => {
             name: "Giovanna Mallucci",
             affiliation:
               "Principal Investigator, Altos Labs, Cambridge Institute of Science, UK",
-            topic: "",
+            topic: "Mechanisms to medicines in neurodegeneration",
           },
         ],
       },
@@ -708,6 +722,75 @@ const SymposiumCalendar = () => {
         endTime: new Date(Date.UTC(2025, 4, 19, 13, 0, 0)),
         type: "break",
         location: "Hall A",
+        speakers: [
+          {
+            name: "Konstantinos Diskos",
+            affiliation: "University of Crete, Greece",
+            topic:
+              "YMSI-1 Juvenile mGLUR2/3 agonist LY379268 treatment enhances prefrontal GABAergic transmission and improves behavioral and synaptic deficits in both the mam mouse and mam rat neurodevelopmental models of schizophrenia",
+           
+          },
+          {
+            name: "Juliane Loui",
+            affiliation: "Leipzig University, Germany",
+            topic:
+              "YMSI-2 Deletion of THY-1 induces a distinct partially activated astrocyte phenotype in mice",
+                     
+          },
+          {
+            name: "Sofia Pasadaki",
+            affiliation: "University of Crete, Greece",
+            topic:
+              "YMSI-3 Role of developmental regulators of axonal local translation in adult axon regeneration",
+                     
+          },
+          {
+            name: "Luise Schlotterose",
+            affiliation: "University of Oxford, UK",
+            topic:
+              "YMSI-4 Advanced in vitro models of blood-brain barrier leakage post-traumatic brain",
+                     
+          },
+          {
+            name: "Avinoam Ratzabi",
+            affiliation: "Tel Aviv University, Israel",
+            topic:
+              "YMSI-5 The role of tumor-associated macrophages in the brain metastasis microenvironment",
+                     
+          },
+          {
+            name: "Elisa Marozzi Cruz",
+            affiliation: "University of Oxford, UK",
+            topic:
+              "YMSI-6 Astrocyte-enriched 3D constructs enhance traumatic brain injury repair",          
+          },
+          {
+            name: "Gabriele Karger",
+            affiliation: "University of Bremen, Germany",
+            topic:
+              "YMSI-7 ATP depletion and restoration in cultured primary astrocytes",          
+          },
+          {
+            name: "Sofia Petsangouraki",
+            affiliation: "University of Crete, Greece",
+            topic:
+              "YMSI-8 Contactin 2 is important in the regulation of myelination of SST+ interneurons",          
+          },
+          {
+            name: "Mor Yam",
+            affiliation: "Tel Aviv University, Israel",
+            topic:
+              "YMSI-9 Mouse model of GRIN2D-developmental and epileptic encephalopathy recapitulates the human disease",          
+          },
+          {
+            name: "Konstantina Kaplani",
+            affiliation: "University of Patras, Greece",
+            topic:
+              "YMSI-10 Exploring ependymal cell reprogramming as a therapeutic intervention for hydrocephalus ",          
+          },
+    
+        ]
+        
       },
       {
         id: "YMS-2",
@@ -716,6 +799,73 @@ const SymposiumCalendar = () => {
         endTime: new Date(Date.UTC(2025, 4, 19, 13, 0, 0)),
         type: "break",
         location: "Hall A",
+        speakers:[
+          {
+          name: "Weronika Tomaszewska",
+          affiliation: "Nencki Institute of Experimental Biology, Poland",
+          topic:
+            "YMSII-1 Interplay of serum lipids and microglia in the susceptibility to the long-term behavioral effects of adverse childhood experiences",
+         },
+         {
+          name: "Hidaayah O. Jimoh-Abdulghaffaar",
+          affiliation: "University of Ilorin, Nigeria",
+          topic:
+            "YMSII-2 Aspirin as a modifier of epigenetic responses: DNA methylation changes in a social instability model of depression in female Wistar rats",
+          },
+       
+          {
+        name: "Annamaria Tisi",
+            affiliation: "University of L'Aquila, Italy",
+            topic:
+              "YMSII-3 The retina as a window to the brain: dysregulated endocannabinoid signalling as a biomolecular marker of early Alzheimer’s disease",
+          },
+          {
+          name: "Anastasia Vamvaka-Iakovou",
+              affiliation: "“Demokritos” NCSR, Greece",
+              topic:
+                "YMSII-4 Monitoring the impact of prolonged use of cannabidiol in the healthy brain: a multiscale analysis",
+              
+          },
+          {
+            name: "Konstantina Dimoula",
+                affiliation: "University of Athens, Greece",
+                topic:
+                  "YMSII-5 α-Synuclein is a novel functional interactor of the exocyst complex",
+          },
+          {
+            name: "Elissavet-Kalliopi Akrioti",
+            affiliation: "Hellenic Pasteur Institute, Greece ",
+            topic:
+              "YMSII-6 Spatiotemporal dynamics of synaptic dysfunction in p.a53t-αSYN models: investigating early pathology as a therapeutic target",
+          },
+          {
+            name: "Hazem Safory",
+             affiliation: "Technion-Israel Inst. of Technology, Israel",
+             topic:
+               "YMSII-7 An innovative decoy peptide strategy to mitigate α-synuclein pathology in Parkinson's disease models",
+          },
+          {
+                name: "Marianna Naki",
+                    affiliation: "Biomedical Research Foundation, Academy of Athens, Greece",
+                    topic:
+                      "YMSII-8 SNCA-targeting antisense oligonucleotides as a therapeutic approach for alpha- synucleinopathies",
+
+          },
+          {
+                  name: "Marta Turri",
+                      affiliation: "University of Sherbrooke, Canada",
+                      topic:
+                        "YMSII-9 Stearoyl-CoA desaturase inhibition leads to fatty acids normalization and improved dendritic spines density in the hippocampus of 5XFAD-AD mouse model",
+                        
+          },
+          {
+                    name: "Anastasia Megalokonomou",
+                        affiliation: "“Demokritos” NCSR, Greece",
+                        topic:
+                          "YMSII-10 Novel antisense oligonucleotides against tau brain pathology",
+          },
+                  
+         ]
       },
       {
         id: "s16",
@@ -784,10 +934,10 @@ const SymposiumCalendar = () => {
               "S17-03	The transition from endogenous network activity to epileptiform discharges: a computational approach",
           },
           {
-            name: "Stelios Smyrnakis",
+            name: "Stelios Smirnakis",
             affiliation: "Harvard Medical School, USA",
             topic:
-              "S17-04	Brain orchestra under spontaneous conditions: Identifying communication modules from the functional architecture of area V1",
+              "S17-04	Cortical circuit correlates of perception: lessons from a mouse model of perceptual bistability",
           },
         ],
       },
@@ -825,7 +975,7 @@ const SymposiumCalendar = () => {
             affiliation:
               "Life and Health Sciences Research Institute, Portugal",
             topic:
-              "S18-04	Dissecting the interplay between Tau and RNA-Binding Protein dyshomeostasis in the precipitating role of chronic stress on brain pathology",
+              "S18-04	The role of tau in the regulation of translational stress response and its importance for brain pathology",
           },
         ],
       },
@@ -855,7 +1005,7 @@ const SymposiumCalendar = () => {
             name: "Francesco Petrelli",
             affiliation: "University of Lausanne, Switzerland)",
             topic:
-              "S19-03	The role of mitochondrial metabolism in glial cells: implications for health and Alzheimer’s disease",
+              "S19-03	Mitochondrial fatty acid β-oxidation in astrocytes is important for brain lipid homeostasis",
           },
           {
             name: "Ottavio Arancio",
@@ -967,23 +1117,23 @@ const SymposiumCalendar = () => {
         description: "Chair: Eva Syková (Slovak Academy of Sciences, Slovakia)",
         speakers: [
           {
-            name: "Harald Sontheimer",
-            affiliation: "University of Virginia, USA",
+            name: "Eva Syková",
+            affiliation: "Slovak Academy of Sciences, Slovakia",
             topic:
-              "S22-01	Perineuronal nets modulate intrinsic excitability and synaptic plasticity	",
+              "S22-01	Astrocytes and perineuronal nets in extrasynaptic transmission and neuroplasticity	",
+          },     
+          {
+            name: "Alexander Dityatev",
+            affiliation: "German Center for Neurodegenerative Diseases (DZNE), Germany",
+            topic:
+              "S22-02	Interplay between Glia and Extracellular Matrix at Tetrapartite Synapses",
           },
           {
             name: "Constanze Seidenbecher",
             affiliation: "Leibniz Institute for Neurobiology, Germany",
             topic:
-              "S22-02	Hyaluronan-based neural ECM in pathophysiological plasticity of the brain",
-          },
-          {
-            name: "Eva Syková ",
-            affiliation: "Slovak Academy of Sciences, Slovakia",
-            topic:
-              "S22-03	Astrocytes and perineuronal nets in extrasynaptic transmission and neuroplasticity",
-          },
+              "S22-03	Hyaluronan-based neural ECM in pathophysiological plasticity of the brain",
+          },        
           {
             name: "Jessica Kwok",
             affiliation: "University of Leeds, UK",
@@ -1082,7 +1232,7 @@ const SymposiumCalendar = () => {
               "S25-01	Studying physiological hallmarks of Alzheimer’s disease",
           },
           {
-            name: "Marco Canepari",
+            name: "Fatima Abbas",
             affiliation: "Université Grenoble Alpes et CNRS, France",
             topic:
               "S25-02	The function of the voltage-gated sodium channel Nav1.2 in physiology and pathology",
