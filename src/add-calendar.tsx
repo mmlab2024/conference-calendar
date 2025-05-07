@@ -16,7 +16,7 @@ const AddToCalendarButton = ({
     const params = new URLSearchParams({
       action: 'TEMPLATE',
       text: title,
-      details: location +'\n\n' + description + '\n\n' + speakers.map((o: any)=> `${o.topic}\n${o.name}: ${o.affiliation}`).join('\n\n').toString(),
+      details: location +'\n\n' + description + '\n\n' + speakers.map((o: any)=> `${o.topic}\nSpeaker: ${o.name} (${o.affiliation})\n${o.abstract ? `Abstract: ${o.abstract}` : ``}`).join('\n\n').toString(),
       location: 'Πολιτιστικό Κέντρο Νάξου - πρώην Σχολή Ουρσουλινών',
       dates: `${startTime.toISOString().replace(/[-:]/g, '')}/${endTime.toISOString().replace(/[-:]/g, '')}`,
       trp: '60' // Reminder 15 minutes before the event
@@ -35,7 +35,7 @@ const AddToCalendarButton = ({
       `DTSTART:${formatDate(startTime.toISOString())}`,
       `DTEND:${formatDate(endTime.toISOString())}`,
       `SUMMARY:${title}`,
-      `DESCRIPTION:${location +'\\n\\n' + description + '\\n\\n' + speakers.map((o: any)=> `${o.topic}\\n${o.name}: ${o.affiliation}`).join('\\n\\n').toString()}`,
+      `DESCRIPTION:${location +'\\n\\n' + description + '\\n\\n' + speakers.map((o: any)=> `${o.topic}\\n\\nSpeaker: ${o.name} (${o.affiliation})\\n\\n${o.abstract ? `Abstract: ${o.abstract}` : ``}`).join('\\n\\n').toString()}`,
       `LOCATION:${coordinates}`,
       `BEGIN:VALARM`,
       `TRIGGER:-PT24H`,
@@ -52,7 +52,7 @@ const AddToCalendarButton = ({
   };
 
   const handleClick = () => {
-    if (isIOS) {
+    if (!isIOS) {
       window.open(formatICalendarUrl());
     } else {
       window.open(formatGoogleCalendarUrl(), '_blank');
